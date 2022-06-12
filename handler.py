@@ -3,7 +3,7 @@ from input_error import input_error
 from add_class import Record, Name, Phone, Birthday
 
 
-#@input_error
+@input_error
 def handler(sentence: str, phone_dict={}, birthday_dict={}):
     def all_function(sentence: str):
 
